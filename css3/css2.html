@@ -8,28 +8,28 @@
            flex-direction: row;
            
         }
-    div.DateTable{  width:200px;; font-size: 2em;
+    div.Table{  width:200px;; font-size: 2em;
   
     }
-    div.DateTable>div{
+    div.Table>div{
         background-color: aqua;border: black solid 2px;position:relative;cursor: pointer; border-radius: 5px;
         
     }
-    div.MenuLevel2{
+    div.Menu{
         width: 150px;display:none;
     }
-    div.MenuLevel2>div{
+    div.Menu>div{
         background-color: rgb(88, 53,232 );border: solid black 2px;cursor: pointer;border-radius: 5px;  }
-    div.DateTable > div:hover div.MenuLevel2  {display:block; position:absolute;  top: 100%;left: 100%; z-index: 1; 
+    div.Table > div:hover div.Menu  {display:block; position:absolute;  top: 100%;left: 100%; z-index: 1; 
     }
     @media all and(max-width:507px){
-        div.DateTable{ width:700px; display: flex;
+        div.Table{ width:700px; display: flex;
             flex-direction: column;
     }
-    div.DateTable>div{
+    div.Table>div{
         background-color: grey;border: black solid 2px;position:relative;cursor: pointer; border-radius: 5px;
     }
-    div.MenuLevel2{
+    div.Menu{
         width: 150px;display:flex;
     }
 }
@@ -37,9 +37,9 @@
 </head>
 <body>
    <div class="wrap">
-    <div class="DateTable">
+    <div class="Table">
         <div>Понедельник
-            <div class="MenuLevel2">
+            <div class="Menu">
                 <div>Завтрак</div>
                 <div>Обед</div>
                 <div>Ужин</div>
@@ -47,7 +47,7 @@
         </div>
         
             <div >Вторник
-                <div class="MenuLevel2">
+                <div class="Menu">
                     <div>Завтрак</div>
                     <div>Обед</div>
                     <div>Ужин</div>
@@ -55,28 +55,28 @@
             </div>
         
         <div>Среда
-            <div class="MenuLevel2">
+            <div class="Menu">
                 <div>Завтрак</div>
                 <div>Обед</div>
                 <div>Ужин</div>
             </div>
         </div>
         <div>Четверг
-            <div class="MenuLevel2">
+            <div class="Menu">
                 <div>Завтрак</div>
                 <div>Обед</div>
                 <div>Ужин</div>
             </div>
         </div>
         <div>Пятница
-            <div class="MenuLevel2">
+            <div class="Menu">
                 <div>Завтрак</div>
                 <div>Обед</div>
                 <div>Ужин</div>
             </div>
         </div>
         <div>Суббота
-            <div class="MenuLevel2">
+            <div class="Menu">
                 <div>Завтрак</div>
                 <div>Обед</div>
                 <div>Ужин</div>
